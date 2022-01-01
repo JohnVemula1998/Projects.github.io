@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(231, 193, 243);
+}
+/* Navigation bar styling */
+
+nav{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+nav h2 {
+    margin-left: 3vw;
+    color: rgb(4, 139, 250);
+}
+nav h2,nav #icons{
+    margin-top: 1.5vh;
+}
+nav > #icons > a{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-decoration: none;
+}
+nav > #icons > a:hover {
+    color: rgba(255, 0, 0, 0.911);
+}
+/* Section content styling */
+section{
+    margin-top: 10vh;
+    display: flex;
+    word-wrap: break-word;
+}
+section > .name {
+    margin-top:15vh ;
+    margin-left: 10vw;
+    width: 50%;
+}
+#img > img{
+    width: 38%;
+    height: 60vh;
+    position: absolute;
+    right: 2vw;
+    border-radius: 50%;
+}
+.buttons{
+    margin-left: 30vw;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    background-color:#2e2828;
+    border: none;
+    color: white;
+    margin: 2vh;
+}
+@media screen and (min-width:700px) {
+body {
+    background-color: #e3c981;
+}    
+}
+

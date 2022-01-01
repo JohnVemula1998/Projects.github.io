@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+/* container */
+
+/* Main Navigation bar */
+nav {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    align-items: center;
+}
+nav #img1{
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+nav h3{
+    margin-left: 1rem;
+}
+nav #search {
+    margin-left: 10rem;
+    height: 6.2vh;
+    border: hidden;
+    background-color:#e6f5ea ;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 00.75rem;
+}
+nav #button2 {
+    height: 6.2vh;
+    border: hidden;
+    background-color:#e6f5ea ;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 00.75rem;
+}
+
+.search{
+    width: 45vw;
+    height: 6vh;
+    background-color: #e6f5ea;
+    border: none;
+    align-items: center;
+}
+#img2{
+    margin-left: 18vw;
+}
+#img3{
+    margin: 3vw;
+}
+#img5{
+    margin-left: 1vw;
+}
+hr {
+    margin: 0px;
+}
+
+
+/* side Navigation bar */
+.sidenav{
+    width: calc(15vw - 2px);
+    height: 100vh;
+    border-right: 1px solid #363434;
+    background-color: white;
+    float: left;
+}
+/* secondnav */
+.secondnav{
+    width: calc(100vw - 15vw);
+    height: 6vh;
+    background-color: white;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.secondnav img{
+    width: 2vw;
+}
+.secondnav button {
+    margin-left: 70vw;
+    margin-right: 1vw;
+}
+.secondnav h2{
+    font-weight: 200;
+}
+/* flex view */
+.container {
+    width: calc(100vw - 15vw);
+    height: calc(100vh - 16vh);
+    float: right;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.container img{
+    width: 300px;
+    height: 200px;
+} 
+.container #thead{
+    display: none;
+}
+/* table view */
+.container1 {
+    display: table;
+    border-collapse:collapse ;
+    width: calc(100vw - 15vw); 
+    height: calc(100vh - 16vh);
+    background-color: white;
+}
+.container1 img{
+    width: 100px;
+    height: 100px;
+} 
+.container1 #thead{
+    display: initial;
+    text-align: center;
+}
+.container1.card{
+    display: table-row;
+}
+.container1 .td{
+    display: table-cell;
+    border: 1px solid black;
+    width: 41.8vw;
+    text-align: center;
+}
+.card .td{
+    text-align: center;
+}
+.card {
+    transition: all 0.5s linear;
+}
+.card:hover {
+    box-shadow: -1px 10px 30px 0px rgba(105, 90, 166, 0.75);
+    transform: translateY(-1px);
+}
+/* Side Navigation bar */
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidenav .plus {
+    width: 12vw;
+    height: 8vh;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sidenav img {
+    width: 3.5vw;
+    border-radius: 50%;
+    margin: 5%;
+}
+.sidenav hr{
+    width: 100%;
+}
+.sidenav .drive{
+    display: flex;
+    width: 80%;
+    height: 7vh;
+    font-size: 15px;
+    align-items: center;
+    border: none;
+}
+.sidenav button {
+    background-color: white;
+    width: 12vw;
+    height: 5vh;
+    border-radius: 3vw;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+.sidenav svg {
+    margin: 5%;
+    fill: rgba(0, 0, 0, 0.767);
+}
+.sidenav button:hover{
+    color: blue;
+    background-color: rgb(252, 200, 228);
+}
+.sidenav button:hover svg{
+    fill: blue;
+}
+.sidenav input {
+    background-color: #E5E5E5;
+    width: 90%;
+}
+#buy{
+    color: blue;
+    border: 1px solid black;
+    height: 5vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

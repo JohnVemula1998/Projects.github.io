@@ -1,0 +1,159 @@
+/* :root{
+    
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+/* nav bar styling */
+.container{
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.nav1{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(27, 125, 236, 0.993);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.nav1 img {
+    width: 7vw;
+    margin-left: 13vw;
+}
+.nav1 input {
+    margin-left: 1vw;
+    height: 4.6vh;
+    width: 35rem;
+    border: none;
+}
+.nav1 button{
+    height: 4.8vh;
+    border: none;
+    background-color: white;
+}
+.nav1 button svg {
+    fill:rgba(27, 125, 236, 0.993);
+}
+.nav1 h3{
+    color: white;
+}
+.nav1 svg {
+    fill: white;
+}
+.nav1 #user {
+    margin-left: 13vw;
+}
+.nav1 #more,.nav1 #cart {
+    margin-left: 4vw;
+}
+ /* Styling second Navigation bar  */
+ .nav2{
+     display:flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+ }
+ .nav2 .card {
+     display: flex;
+ }
+ .nav2 svg{
+     margin-top: 2vh;
+     margin-right: 2vw;
+ }
+ .nav2 :hover{
+     color: rgba(30, 30, 221, 0.966);
+ }
+ .nav2 :hover{
+    fill: rgba(9, 9, 240, 0.842);
+}
+ /* styling body container */
+ .container2 {
+     width: 100vw;
+     height: calc(100vh - 16vh);
+     background-color: cornsilk;
+     display: flex;
+     gap: 1vh;
+ }
+ .container2 .sidenav {
+     width: 20vw;
+     height: 100VH;
+     background-color: white;
+     color: black;
+ }
+ 
+ .mat,.fur {
+     display: flex;
+ }
+ .mat svg,.fur svg {
+     margin-top: 1.7vh;
+     margin-left: 1vw;
+ }
+ #bed {
+     margin-left: 4vw;
+ }
+ progress {
+     width: 90%;
+     margin: 5%;
+ }
+ .value{
+     display: flex;
+ }
+ .min,.max {
+     display: flex;
+     border: 1px solid rgba(0, 0, 0, 0.63);
+     width: 8vw;
+     height: 5vh;
+     margin: 5%;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .coins,.fass{
+     display: flex;
+ }
+ .fass svg {
+     margin-left: 60%;
+ }
+ .brand{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+/* Styling Main Container */
+.container2 .main {
+    width: calc(100vw - 20vw);
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+.main img {
+    width: 13vw;
+    height: 20vh;
+}
+.main_card {
+    height: 40vh;
+    width: 15vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.main_card p {
+    margin: 0px;
+}
+.main_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main_card p:hover{
+    color: rgba(0, 0, 255, 0.767);
+}
+
