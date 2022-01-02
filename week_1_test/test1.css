@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(187, 172, 201);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 379px;
+    height: 400px;
+}
+.hai{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+}
