@@ -1,0 +1,44 @@
+.d-none{
+    display: none;
+}
+#inp,.val {
+    height: 8vh;
+    width: 15vw;
+    font-size: 3vh;
+    font-weight: 800;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10vh;
+    margin: 1vh;
+    border: none;
+    background-color: rgba(145, 236, 53, 0.932);
+    color: crimson;
+}
+#gen,#res{
+    margin-left: 2vh;
+}
+h2{
+    color: red;
+    font-size: 6vh;
+    font-family: cursive;
+}
+h2:hover{
+    color: rgb(253, 6, 191);
+}
+button{
+    height: 5vh;
+    width: 12vw;
+    border: none;
+    border-radius: 10vh;
+    background-color: rgb(65, 224, 245);
+    text-transform: capitalize;
+    color: rgb(253, 6, 191);
+    font-weight: 600;
+    font-size: 1.5em;
+}
+span{
+    margin-left: 2vh;
+    font-size: 7vh;
+    font-style: oblique;
+    color: blue;
+}

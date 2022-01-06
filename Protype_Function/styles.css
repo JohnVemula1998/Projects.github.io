@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600&family=Shizuru&family=Smooch&display=swap');
+ .val{
+    margin: 1vh;
+    width: 30vh;
+} 
+#length,.val{
+    font-size: 3vh;
+    text-align: center;
+    border: none;
+    background-color: rgb(128, 245, 245);
+    border-radius: 10vh;
+    height: 8vh;
+}
+#value{
+    margin-left: 2vh;
+}
+button{
+    margin: 1vh;
+    height: 6vh;
+    width: 8vw;
+    background-color: rgb(224, 161, 161);
+    border: none;
+    border-radius: 10vh;
+    font-size: 3vh;
+    color: rgb(0, 38, 255);
+    text-transform: capitalize;
+}
+.val0{
+    background-color: chartreuse;
+}
+.d-none {
+    display: none;
+}
+h2{
+    font-family: cursive;
+}
+h2 span {
+    color: red;
+}
+p{
+    text-transform: capitalize;
+}
+#ans{
+    text-transform: capitalize;
+    font-size: 5vh;
+    color: rgb(0, 255, 0);
+}
