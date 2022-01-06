@@ -117,13 +117,13 @@ done.addEventListener('click',_ =>{
         inp.style.color='#00ff00';
         let hint = document.getElementById('hint');
         hint.classList.add('d-none');
-        count = '';
+        count ='';
     }else{
         inp.innerText= "Incorrect try again!";
         inp.style.color='#ff0000';
         let hint = document.getElementById('hint');
         hint.classList.remove('d-none');
-        count = '';
+        count ='';
     }
     
     
