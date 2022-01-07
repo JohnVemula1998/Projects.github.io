@@ -4,7 +4,7 @@ const gameCells = document.querySelectorAll('.cell')
 
 
 var isXturn=true;
-var count =0;
+var count = 0;
 
 const checkGameStatus=()=>{
     const index0ClassList=gameCells[0].classList;
@@ -85,8 +85,8 @@ const checkGameStatus=()=>{
         let result = document.getElementById('strike');
         result.classList.add('strike-diagonal-2');
         alert('X Win!');
-    }else if (count ==9){
-        alert('Match Drawn')
+    }else if (count == 9){
+        alert('Match Drawn');
     }
     
 }
