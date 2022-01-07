@@ -1,0 +1,142 @@
+:root{
+    --primary-color:#14bcab;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'roboto';
+}
+.container{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color:var(--primary-color);
+    border-radius: 15px;
+    padding-top: 20px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    
+}
+
+.utility-ctn{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+}
+
+.heading{
+    color: #1e1e1e;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+.reset-btn{
+    background-color: transparent;
+    border: none;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.game-box{  
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    cursor: pointer;
+}
+.cell{
+    color: greenyellow;
+    font-size: 2em;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell1,#cell2,#cell4,#cell5{
+    border-right: 1vh solid white;
+    border-bottom: 1vh solid white;
+
+}
+#cell3,#cell6{
+    border-bottom: 1vh solid white;
+}
+#cell7,#cell8{
+    border-right: 1vh solid white;
+}
+
+.X::before{
+    content: "X";
+}
+.O::before{
+    content: "O";
+}
+.strike {
+    background-color: red;
+    position:absolute;
+    
+}
+.strike-row-1 {
+    width: 300px;
+    height: 3px;
+    top: 34.5%;
+} 
+.strike-row-2 {
+    width: 300px;
+    height: 3px;
+    top: 48%;
+}
+.strike-row-3 {
+    width: 300px;
+    height: 3px;
+    top: 62.5%;
+}
+.strike-column-1 {
+    width: 3px;
+    height: 45%;
+    top: 26%;
+    left: 43.3%;
+}
+.strike-column-2 {
+    width: 3px;
+    height: 45%;
+    top: 26%;
+    left: 49.7%;
+}
+.strike-column-3 {
+    width: 3px;
+    height: 45%;
+    top: 26%;
+    left: 56.4%;
+}
+
+.strike-diagonal-1{
+    width: 20%;
+    height: 3px;
+    top: 48%;
+    left: 40%;
+    transform: skewY(45deg);
+}
+.strike-diagonal-2{
+    width: 20%;
+    height: 3px;
+    top: 48%;
+    left: 40%;
+    transform: skewY(-45deg);
+}
+
