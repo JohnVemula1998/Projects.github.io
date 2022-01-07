@@ -85,7 +85,7 @@ const checkGameStatus=()=>{
         let result = document.getElementById('strike');
         result.classList.add('strike-diagonal-2');
         alert('X Win!');
-    }else if (count == 9){
+    }else if (count ==9){
         alert('Match Drawn')
     }
     
