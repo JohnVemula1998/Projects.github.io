@@ -123,9 +123,13 @@ function Gameon(){
                 console.log('valid');
                 scoreCount = winningAmount[count1];
                 score.innerText = winningAmount[count1];
-                totalScore.innerText = `Your Winning Amout is ${scoreCount} Indian Rupees`; 
-                game();
-                timeCount = 30;
+                totalScore.innerText = `Your Winning Amout is ${scoreCount} Indian Rupees`;
+                setTimeout(function(){
+                    game();
+                    timeCount = 30;
+                },500); 
+               
+                
             }else{
                 stop();
                 if(scoreCount<1000){
