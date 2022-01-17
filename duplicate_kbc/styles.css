@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600&family=Shizuru&family=Smooch&display=swap');
+
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-image:url(kbc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 40vw;
+    padding: 20px;
+    height: 60vh;
+    background: rgba(0, 255, 55, 0.541);
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    margin-top: 20vh;
+}
+.quizz_header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: -20px -20px 20px;
+    border-radius: 15px 15px 0 0;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+.ques-set p{
+    margin: 0 0 15px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: rgb(31, 1, 15);
+}
+.answer{
+    position: relative;
+    margin-bottom: 10px;
+}
+.ansSet input{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+} 
+.ansSet  span {
+    display: block;
+    padding:  8px 15px;
+    background-color: #bad0c9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+    margin: 5px;
+}
+.ansSet span:hover{
+    background-color: #9ab5ac; 
+}
+.ansSet input:checked+ span {
+    background-color: #f93c3c;
+}
+.ansSet input[valid]:checked+span{
+    background-color: green;
+    color: #fff;
+}
+
+.quizz-footer{
+    padding: 10px 0 0;
+    text-align: right;
+}
+.btn1{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #0b58a7;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.btn1:hover{
+    background-color:#064482 ;
+}
+.ques-set{
+    display: none;
+}
+.active{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+#TotalAmount{
+    color: rgb(255, 2, 2);
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    margin-top: 18vh;
+}
+#start{
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: rgba(0, 255, 34, 0.733);
+    border-radius: 15px 0 15px 0;
+}
