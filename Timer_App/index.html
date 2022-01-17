@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stop-Watch</h1>
+    <div class="container">
+        <div class="watch">
+            <div class="outer-circle" id="outer-circle">
+                <div class="inner-circle">
+                    <span class="time minute" id="minute">00</span>
+                    <span class="time sec" id="sec">&nbsp;: 00</span>
+                    <span class="time msec" id="msec">&nbsp; 00</span>
+                </div>
+            </div>
+            <div class="button-wrapper">
+            <button class="button d-none" id="reset"> Reset</button>
+            <button class="button" id="play">Play</button>
+            <button class="button d-none" id="lapBtn">Laps</button>
+        </div>
+        </div>
+       <ul class="laps" id="laps">
+         
+       </ul>
+       <button class="lap-clear" id="lap-clear">Clear Laps</button>
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
