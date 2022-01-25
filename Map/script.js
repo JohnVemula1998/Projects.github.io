@@ -64,6 +64,7 @@ function onSuccess(event) {
           
         });
         list.innerHTML = listcontents;
+        listContents = "";
        
       }
      
