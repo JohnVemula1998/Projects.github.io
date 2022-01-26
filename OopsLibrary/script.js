@@ -25,13 +25,16 @@ function CreateBook(event) {
   console.log(book1);
   const book = document.createElement("div");
   book.classList.add("book");
-  book.innerHTML = `<h3>${BookTitle}</h3>
+  if(BookTitle.length>0 && AuthorName.length>0&& BookPages.length>0){
+    book.innerHTML = `<h3>${BookTitle}</h3>
     <h4>${AuthorName}</h4>
     <p>${ReleaseDate}</p>
     <p>pages: ${BookPages}</p>`;
     BookCtn.appendChild(book);
     form.classList.add('d-none');
     addBook.classList.remove('d-none');
+  }
+  
 }
  
 
